@@ -18,8 +18,7 @@ aside {
 }
 
 aside * {
-    color: white;
-    
+    color: white;    
 }
 
 aside h2 {
@@ -37,8 +36,6 @@ aside section h2 {
 
 #foto-de-perfil img{
     border-radius: 50%;
-    border-image-outset: 2px solid white;
-
 }
 
 
@@ -75,6 +72,7 @@ main section h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
 }
+
 .hero {
     background-color: #CFB699;
     box-shadow: 1px 1px 20px 3px #466E82  inset;
@@ -124,4 +122,11 @@ main section h2 {
 .cursos-certificados h2 {
     border-bottom: 2px solid black;
     font-size: large;
+}
+
+/* ----ICONOS---- */
+
+.fb ::before {
+    content: "\f09a";
+    font-family: "Font Awesome 5 Free";
 }
