@@ -34,7 +34,7 @@ aside section h2 {
     list-style-type: none;
 }
 
-#foto-de-perfil img{
+#foto-de-perfil img {
     border-radius: 50%;
 }
 
@@ -105,8 +105,13 @@ main section h2 {
 
 .resumen-profesional p {
     line-height: 2em;
-    padding: 5px;
+    padding: 0px 10px;
     font-size: large;
+}
+
+.resumen-profesional #demo1 {
+    padding: 0px 10px 10px 10px;
+    font-weight: bolder;
 }
 
 .Experiencia-laboral h2 {
@@ -124,9 +129,46 @@ main section h2 {
     font-size: large;
 }
 
-/* ----ICONOS---- */
+#boton {
+    background-color:#466E82;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 2px 10px;
+    font-size: 1em;
+    box-shadow: 0px 0px 10px 0px #466E82;
+    cursor: pointer;
+    
+    }
+    
+/* ---Trabajos realizados--- */
 
-.fb ::before {
-    content: "\f09a";
-    font-family: "Font Awesome 5 Free";
+.trabajos-realizados {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFEDD6;
 }
+
+.trabajos-realizados article {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.trabajos-realizados article img{
+    border-radius: 20px;
+    outline: groove black;
+    
+}
+
+#boton-fotos {
+    background-color:#466E82;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 2px 10px;
+    margin: 0px 0px 15px 0px;
+    font-size: 1em;
+    box-shadow: 0px 0px 10px 0px #466E82;
+    cursor: pointer;
+    
+    }
